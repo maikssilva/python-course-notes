@@ -11,4 +11,8 @@ idade = 32 # Variável do tipo inteiro (int), (recebe número sem casas decimais
 altura = 1.92 # Variável do tipo float, (recebe número com casas decimais), não precisa de aspas
 dev = True # Variável do tipo booleano (bool), (recebe True ou False), não precisa de aspas
 
-print(f"Olá, {nome}! Você tem {idade} anos e {altura}m de altura. Você é dev? {dev}. ")
+nome = input("Digite seu nome: ") # A variável nome agora recebe o valor digitado pelo usuário
+idade = int(input("Digite sua idade: ")) # A variável idade agora recebe o valor digitado pelo usuário, convertido para inteiro
+altura = float(input("Digite sua altura: ")) # A variável altura agora recebe o valor digitado pelo usuário, convertido para float
+
+print(f"Olá, {nome}! Você tem {idade} anos e {altura}m de altura")
