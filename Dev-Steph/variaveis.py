@@ -4,7 +4,7 @@
 
 # Tipos de dados básicos: int, float, str, bool
 
-<nome da var> = <valor>  # Atribuição de valor a uma variável
+# <nome da var> = <valor>  Atribuição de valor a uma variável
 
 nome = "Maik" # Variável do tipo string (str), (texto), sempre entre aspas, (simples ou duplas)
 idade = 32 # Variável do tipo inteiro (int), (recebe número sem casas decimais), não precisa de aspas
