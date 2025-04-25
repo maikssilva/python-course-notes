@@ -13,8 +13,8 @@ for p in range(1, 5):
     print(f'-------{p}ª PESSOA -----')
     nome = str(input('NOME: ')).strip()
     idade = int(input('IDADE: '))
-    sexo = str(input('SEXO [M/F]:'   )).strip()
-    somaidade += idade
+    sexo = str(input('SEXO [M/F]:   ')).strip()
+    somaidade += idade  
     if p == 1 and sexo in 'Mm':
         maioridadehomem = idade
         nomevelho = nome
